@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Counter App</title>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="header">
+                <h1>Word Counter Tool</h1>
+                <p>Analyze your text with real-time statistics and insights</p>
+            </div>
+            <div class="input-section">
+                <div class="textarea-container">
+                    <textarea name="" id="textInput" placeholder="start typing or paste something"
+                        aria-label="Text input for word counting"></textarea>
+                </div>
+                <div class="controls">
+                    <button class="btn" id="countButton">Clear text</button>
+
+                    <button class="btn-secondary">copy statistics</button>
+
+                    <button class="btn-secondary">export text</button>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stats-card">
+                    <div class="stats-number" id="wordcount">0 <div>
+                            <div class="stats-label">Words</div>
+                        </div>
+                    </div>
+                    <div class="stats-card">
+                        <div class="stats-number" id="wordcount">0 <div>
+                                <div class="stats-label" id="charCount">characters </div>
+                            </div>
+                        </div>
+                        <div class="stats-card">
+                            <div class="stats-number" id="wordcount">0 <div>
+                                    <div class="stats-label" id="paraCount">Paragraphs</div>
+                                </div>
+                            </div>
+                            <div class="stats-card">
+                                <div class="stats-label" id="senCount">Sentences</div>
+                            </div>
+                        </div>
+                        <div class="stats-number" id="wordcount">0 <div>
+                                <div class="stats-card">
+                                    <div class="stats-number" id="wordcount">0 <div>
+                                            <div class="stats-label" id="noCount">characters (no spaces)</div>
+                                        </div>
+                                    </div>
+                                    <div class="stats-card">
+                                        <div class="stats-number" id="wordcount">0 <div>
+                                                <div class="stats-label" id="avgWordCount">Avg word/Sen</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reading-time">
+                                    <div class="reading-time-text">
+                                        Estimated Reading Time: <span class="reading-time-value" id="readingTime">0 seconds</span>
+                                    </div>
+                                </div>
+                            </div>
+</body>
+
+</html>
